@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Card, ListGroup } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import "/home/yosmar/Escritorio/Landing-page/src/App.css";
+import "../App.css";
 
 const Caracteristicas = () => {
   const navigate = useNavigate();
