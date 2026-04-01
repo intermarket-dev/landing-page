@@ -21,7 +21,7 @@ const Caracteristicas = () => {
               <Button
                 variant="outline-primary"
                 size="lg"
-                onClick={() => window.open("https://chimerical-tarsier-3cc956.netlify.app/", "_blank")}
+                onClick={() => window.open("https://intermarket2.netlify.app/login", "_blank")}
               >
                 Ver proyecto en vivo
               </Button>
