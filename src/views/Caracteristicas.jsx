@@ -21,7 +21,7 @@ const Caracteristicas = () => {
               <Button
                 variant="outline-primary"
                 size="lg"
-                onClick={() => window.open("https://intermarket2.netlify.app/login", "_blank")}
+                onClick={() => window.open("https://intermarket2.netlify.app/", "_blank")}
               >
                 Ver proyecto en vivo
               </Button>
