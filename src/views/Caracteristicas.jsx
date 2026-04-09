@@ -27,19 +27,20 @@ const Caracteristicas = () => {
               </Button>
             </div>
           </Col>
-          <Col lg={5}>
-            <Card className="card-promo p-4">
-              <Card.Body>
-                <Card.Title>Lo que incluye</Card.Title>
-                <ListGroup variant="flush" className="mt-3">
-                  <ListGroup.Item>Diseño responsivo (mobile/desktop)</ListGroup.Item>
-                  <ListGroup.Item>Integración con API, base de datos y auth</ListGroup.Item>
-                  <ListGroup.Item>Publicación en hosting</ListGroup.Item>
-                  <ListGroup.Item>Equipo con workflow ágil y control de versiones</ListGroup.Item>
-                </ListGroup>
-                <small className="text-muted mt-3 d-block">Déjate inspirar con el proyecto en equipo.</small>
-              </Card.Body>
-            </Card>
+          <Col lg={5} className="d-flex justify-content-center">
+            <div className="mockup-container">
+              <div className="mockup-device">
+                <div className="mockup-notch"></div>
+                <div className="mockup-screen">
+                  <div className="mockup-content">
+                    <div className="mockup-header"></div>
+                    <div className="mockup-row"></div>
+                    <div className="mockup-row"></div>
+                    <div className="mockup-row short"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
