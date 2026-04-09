@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Card, ListGroup } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import mockupImage from "../assets/image.jpeg";
 import "../App.css";
 
 const Caracteristicas = () => {
@@ -11,10 +12,9 @@ const Caracteristicas = () => {
       <Container className="hero-section fade-section">
         <Row className="align-items-center gy-4">
           <Col lg={7}>
-            <h1 className="hero-title">Transforma tu forma de trabajar en equipo</h1>
+            <h1 className="hero-title">Conecta compra y vende en un solo lugar</h1>
             <p className="hero-text">
-              Software colaborativo de alto impacto para equipos de desarrollo, marketing y producto.
-              Tu proyecto en producción con mejor experiencia, más velocidad, y resultados visibles.
+              Descubre productos únicos, conecta con vendedores confiables y realiza tus compras de forma rápida y segura. En InterMarket, todo lo que necesitas está al alcance de un clic.
             </p>
             <div className="d-flex flex-wrap gap-3">
               <Button className="btn-cta" size="lg" onClick={() => navigate("/Equipo")}>Ver proyecto realizado</Button>
@@ -22,7 +22,7 @@ const Caracteristicas = () => {
                 variant="outline-primary"
                 size="lg"
                 onClick={() => window.open("https://intermarket2.netlify.app/", "_blank")}
-              >
+              >oftware colaborativo de alto impacto para equipos de desarrollo, marketing y producto. Tu proyecto en producción con mejor experiencia, más velocidad, y resultados visibles.
                 Ver proyecto en vivo
               </Button>
             </div>
@@ -35,7 +35,7 @@ const Caracteristicas = () => {
                   <div className="mockup-content">
                     <div className="mockup-header"></div>
                     <div className="mockup-row"></div>
-                    <div className="mockup-row"></div>
+                    <img src={mockupImage} alt="App Mockup" className="mockup-image" />
                     <div className="mockup-row short"></div>
                   </div>
                 </div>
